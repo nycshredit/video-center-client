@@ -1,4 +1,40 @@
 /* global css elements */
 body {
-	color: #000;
+	background-color: #000;
+	font-family: 'Nunito', sans-serif;
+	color: #fff;
+}
+
+#videoCenter h1 {
+	float: left;
+	width: 100%;
+	font-size: 32px;
+	line-height: 42px;
+}
+#videoCenter p.teaser {
+	font-size: 17px;
+}
+#videoCenter .section {
+	float: left;
+	border: 5px solid #282727;
+	background-color: #2c2a2b;
+	margin-bottom: 10px;
+	border-radius: 6px;
+}
+
+
+.pageBody {
+	background-color: #313131;
+}
+div.active {
+	background-color: #34a3ed;
+}
+.active {
+	color: #34a3ed;
+}
+.favorite {
+	background-color: #ffea00;
+}
+.contentBorder {
+	background-color: #282727;
 }
